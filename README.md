@@ -1,7 +1,5 @@
 # Azure-IoT-Device-Simulator-in-C
 
-This is a very simple simulator for Azure IoT Hub, what you can run in a docker compose
-
 This is a very simple simulator for Azure IoT Hub, which you can run in a docker-compose
 
 Regarding the simulator, I mainly used and adapted 3 samples from the https://github.com/Azure/azure-iot-sdk-c/
