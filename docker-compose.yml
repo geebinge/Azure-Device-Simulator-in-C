@@ -1,0 +1,3 @@
+services:
+  simulator:
+    image: "gebinger/dev_simulator:0.2"

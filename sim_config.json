@@ -1,0 +1,27 @@
+{
+	"HostName"  : "youriothub.azure-devices.net",
+	"IDScope"   : "0ne01234567",	 	
+	"DeviceID"  : "device01",
+	"CERTFile"  : "/etc/aziot/secrets/device01-full-chain.cert.pem", 
+	"KeyFile"   : "/etc/aziot/secrets/device01.key",
+	"FMC_PayLoad" : "{\"Region\":\"weu\",\"DeviceType\":\"RaspberryPi5B\",\"ADUGroup\":\"geebinge\"}",
+	"MSG_CNT"	: 10,			
+	"MSG_SLP"	: 2,
+	"APP_RPT"	: 20,
+	"APP_SLP_MIN"	: 100,
+	"APP_SLP_RDM"	: 1000,
+	"_comment" : {
+		"HostName"  : "HostName of the IoT Hub",
+		"IDScope"   : "Scope ID of DPS",	 	
+		"DeviceID"  : "Device ID and CN of the x.509 Certificat",
+		"CERTFile"  : "file location of the x.509 public PEM File", 
+		"KeyFile"   : "file location of the x.509 private key PEM File",
+		"FMC_PayLoad" : "Payload we send via the Device to DPS",
+		"MSG_CNT"	: "Nbr of msg call by iothub_ll_client_x509_sample in one run", 
+		"MSG_SLP"	: "Nbr of seconds iothub_ll_client_x509_sample wait between msg",
+		"APP_RPT"	: "Nbr of repeats the app to send MSG_CNT",
+		"APP_SLP_MIN"	: "Nbr of minimum seconds before the app will start again",
+		"APP_SLP_RDM"	: "Nbr of random seconds on top to APP_SLP_RDM  before the app will start again"
+	}
+} 
+
